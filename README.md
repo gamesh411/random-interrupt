@@ -4,6 +4,14 @@ Random Interrupt Helper is a command-line tool that generates random interrupts 
 
 ## Installation
 
+You can install Random Interrupt Helper using pip:
+
+```
+pip install random-interrupt
+```
+
+For development purposes, you can clone the repository and install it in editable mode:
+
 1. Clone the repository:
    ```
    git clone https://github.com/gamesh411/random-interrupt.git
@@ -16,9 +24,9 @@ Random Interrupt Helper is a command-line tool that generates random interrupts 
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
-3. Install the required dependencies:
+3. Install the package in editable mode with development dependencies:
    ```
-   pip install -r requirements.txt
+   pip install -e .[dev]
    ```
 
 ## Usage

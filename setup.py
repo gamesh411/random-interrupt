@@ -4,8 +4,8 @@ with open("docs/usage.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="random_interrupt",
-    version="0.1.1",
+    name="random-interrupt",
+    version="0.1.2",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     install_requires=[
@@ -20,7 +20,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "random_interrupt=random_interrupt.main:main",
+            "random-interrupt=random_interrupt.main:main",
         ],
     },
     author="Endre Fülöp",
